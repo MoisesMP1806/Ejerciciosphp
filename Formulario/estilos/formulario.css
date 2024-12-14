@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.entrada {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], 
+input[type="date"], 
+input[type="password"] {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #9b294f;
+    box-shadow: 0 0 5px rgba(155, 41, 79, 0.5);
+}
+.genero-opciones {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.genero-opciones input[type="radio"] {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.genero-opciones label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background: #9b294f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #7d2141;
+}

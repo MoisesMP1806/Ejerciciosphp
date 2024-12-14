@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="./estilos/formulario.css">
+</head>
+<body>
+    <div class="formulario">
+        <form action="form.php" method="POST">
+            <div class="entrada">
+                <label for="numero-cuenta">Número de cuenta</label>
+                <input type="text" id="numero-cuenta" name="numero-cuenta" placeholder="Número de cuenta" required>
+            </div>
+            <div class="entrada">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="entrada">
+                <label for="primer-apellido">Primer Apellido</label>
+                <input type="text" id="primer-apellido" name="primer-apellido" placeholder="Primer apellido" required>
+            </div>
+            <div class="entrada">
+                <label for="segundo-apellido">Segundo Apellido</label>
+                <input type="text" id="segundo-apellido" name="segundo-apellido" placeholder="Segundo apellido" required>
+            </div>
+            <div class="entrada">
+                <label>Género</label>
+                <div class="genero-opciones">
+                    <input type="radio" name="genero" id="hombre" value="Hombre" required>
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" name="genero" id="mujer" value="Mujer" required>
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" name="genero" id="otro" value="Otro" required>
+                    <label for="otro">Otro</label>
+                </div>
+            </div>
+            <div class="entrada">
+                <label for="fecha-nacimiento">Fecha de Nacimiento</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+            </div>
+            <div class="entrada">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+            </div>
+            <div class="boton">
+                <button type="submit">Registrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

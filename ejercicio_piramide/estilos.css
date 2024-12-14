@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.piramid{
+ text-align: center;
+}
+
+.piramid-inv{
+    text-align: center;
+}
+
+.cont-gen{
+    width: 100wh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}

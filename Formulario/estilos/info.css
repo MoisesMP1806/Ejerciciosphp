@@ -1,0 +1,123 @@
+.cont-menu {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+/* Tarjeta de Usuario */
+.tarjeta-usuario {
+    background-color: white;
+    max-width: 800px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nombre,
+.numeroCuenta,
+.fechaNacimiento,
+.primerApellido,
+.contraseña,
+.genero {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cont-tar {
+    margin-top: 20px;
+}
+
+.titulo-info h2 {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Opcional: personaliza los colores o tamaños de las secciones específicas */
+.nombre {
+    font-weight: bold;
+    color: #4CAF50; /* Cambiar el color si se quiere resaltar el nombre */
+}
+
+.numeroCuenta,
+.fechaNacimiento,
+.primerApellido,
+.contraseña,
+.genero {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Si deseas un estilo más destacado en la información */
+.titulo-info {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.datosGuardados {
+    margin: 20px;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-cabecera {
+    background-color: #9b294f;
+    color: white;
+}
+
+.tabla-columna {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.tabla-fila:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-fila:hover {
+    background-color: #ddd;
+}
+
+.tabla-dato {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
