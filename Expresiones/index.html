@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Validación</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="cont-gen">
+        <form method="post" action="procesar.php">
+            <div class="correos">
+                <label for="correo">Correo:</label>
+                <input type="text" name="correo" id="correo" placeholder="Digita un correo" required>
+            </div>
+    
+            <div class="curp">
+                <label for="curp">CURP:</label>
+                <input type="text" name="curp" id="curp" placeholder="Digita un CURP" required>
+            </div>
+            <div class="palabras">
+                <label for="palabra">Palabra:</label>
+                <input type="text" name="palabra" id="palabra" placeholder="Digita una palabra" required>
+            </div>
+            <div class="especiales">
+                <label for="simbolos">Símbolos Especiales:</label>
+                <input type="text" name="simbolos" id="simbolos" placeholder="Digita caracteres especiales" required>
+            </div>
+    
+            <div class="decimales">
+                <label for="decimal">Número Decimal:</label>
+                <input type="text" name="decimal" id="decimal" placeholder="Digita un número decimal" required>
+            </div>
+
+            <div class="boton">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
